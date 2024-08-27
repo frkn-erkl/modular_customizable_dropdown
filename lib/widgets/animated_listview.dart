@@ -158,7 +158,7 @@ class _AnimatedListViewState extends State<AnimatedListView> {
                 child: RawScrollbar(
                   thickness: widget.dropdownScrollbarStyle.thickness,
                   radius: widget.dropdownScrollbarStyle.radius,
-                  isAlwaysShown: widget.dropdownScrollbarStyle.isAlwaysShown,
+                //  isAlwaysShown: widget.dropdownScrollbarStyle.isAlwaysShown, it cannot work with new flutter version
                   interactive: widget.dropdownScrollbarStyle.interactive,
                   minThumbLength: widget.dropdownScrollbarStyle.minThumbLength,
                   thumbColor: widget.dropdownScrollbarStyle.thumbColor,
